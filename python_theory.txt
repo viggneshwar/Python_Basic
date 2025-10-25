@@ -1,0 +1,251 @@
+Fundamentals of Python Programming:
+###################################
+Layman:
+Python is universal/general purpose/high level or mid level programming language (not a boiler plate prog lang)
+It falls under 2 major programming category - FBP (FUNC BASED PROG LANG) & OOPS (OBJ ORIENTED PROG LANG)
+
+****************PYTHON PROGRAMMING STARTS HERE (2025-10-10/2025-10-18)******************************
+Complexity:
+###########
+3 Types of programming levels are there -  Python (High & Mid)
+High level - Complexity Lower, LOC - Line of Codes lesser
+
+Mid level - Complexity Medium, LOC - Line of Codes (few lines)
+
+Low level - Complexity Higher, LOC - Line of Codes higher (c/c++, Java) - boiler plate coding
+
+
+How to become/understand/Use/Build(highlevel)  Programmers/Programs
+
+Fear of Programming !!!
+#################################################################################
+1. Fear of Failure -
+While I do programming, is it meaningful to have FOF? 
+No, we are going to have better learning only...
+More of failure leads to better success...
+
+How can I overcome FOF? Failing Fast... will leads to faster success...
+
+Different Mentality of us while learning programming-
+1. I don't know programming, but i am ready to try learning it.. - Optimistic
+2. I didn't get an oppurtunity to write programs, but I am willing to do - Optimistic
+3. I don't know whether I can do programming - FOF -> Fail fast
+4. I am not interested/can't do programming, because my mind is not programming mind - AI, Time, Effort we can overcome this...
+To achieve all the above take out the FOF from your mindset...
+
+Answer to get all above fixed -
+TTT - Thirst, Trust, Thrust
+
+2. Fear of Missing Out - FOMO - Take Competitive Advantage (Competition Leads to Success)
+Why we have to learn a programming language like Python? To become an IT Professional
+1. Automate our Tasks/manual activities
+2. Atleast an IT engineer should know any one of the programming language for automation, 
+help others (our kids/grand childs), 
+to train our brain to think logically/functionally/automation/technical/analytically/reason out...
+3. To perform any tasks like development, testing, automation, packaging, deployment, orchestration, scheduling.. etc.,
+4. Some programming language which is universal known/used/improved state, we have choose that kind of programming language 
+and need to known by everyone. - python
+5. By learning a programming language, we can learn other programming language easily in a comparitive way
+
+Why a data engineer/Data analyst/AI Engineer have to learn a programming language like python? As a Data Engineer/Data Analyst/Cloud Data Engineer (minimum the first point)
+Why Python for us:
+***1. To leverage an existing framework like Spark**/airflow/cloud functions/cloud composer/lambda (which developed years by 2000's of people)
+**2. To develop custom functionalities/wrappers/reusable frameworks/generic frameworks/Tools... (MetricBot, DMA, DMF, DatAccura, Audit fw...)
+*3. To build orchestration and scheduling using Airflow...
+4. Use Python for data analysis/analytics/science/ml/ai/visualtion & creation of data pipelines (ETL/ELT), orchestration, scheduling..
+5. We have extensive ecosystem of libraries & integration with lot of other frameworks is high - product building
+6. To communicate with the other system(API) (Cloud functions)/databases/filesystems/AI systems.
+
+Learning a Prog language like Python starts here....:
+PDF - Installation & Pictorial representation of learning
+notes - quick understanding or above and beyond understanding
+***python module (IDE) - Help you build the end to end program as an application
+CLI
+Notebook Environment - Databricks NB env
+
+
+Where can I develop a Python Program? In n number of environments (CLI/REPL, IDE, Batch script in Linux/Windows, Notebooks etc.,)
+1. CLI/REPL - Command line interface / Read Evaluate Print Loop - For quick evaluation/execution/learning/testing of some code snippet
+
+2. IDE - Integrated Development Environment - Help us create a full fledged application.
+We have to understand, how to create a module in python.... so we can develop applications...
+
+3. Notebooks - Offline/Online eg. Jupyter, Zeppelin, Google Colab, Databricks NB etc.,
+
+How to run a Python Program?
+cli -> write commands/programs and type enter to run it...
+python nameof_python_program.py
+IDE -> Run -> execute (ctrl + shift + f10)
+
+
+What is a Python Programming Language?
+High Level,
+General Purpose/Universal,
+Python is Interpreter Based,
+Function Based and
+Object Oriented Programming Language.
+
+Python is a High Level Programming Language, how?
+#without writing toomuch of lines of code, we can get the same result..
+For eg.
+import numpy
+numpy.tan(1)#without writing tan function functionality, i just imported and used it at the high level
+
+#difference between high and low level programming?
+#low level programming example, by writing core logics
+length=0
+compname='INCEPTEZ TECHNOLOGIES'
+for chr in compname:
+   print(chr)
+   length=length+1
+
+print(length)
+
+#high level programming -  with very few lines i achieved the expected result
+compname='INCEPTEZ TECHNOLOGIES'
+print(len(compname))
+
+Python is a universal/general purpose programming language, how?
+help('modules')#it show all common libraries used for filehandling, mail handling, compressions/encoding/decoding etc.,
+import builtins
+print(dir(builtins))
+
+Python is Interpreter Based programming language?
+What is an interpreter - If a programming language compiles the code line by line, then it is interpreter
+What is an compiler    - If a programming language compiles the code completely  , then it is compiler
+
+How a python program works:
+reallife Layman example:
+1. content will be read by eyes line by line 
+2. eye will pass the given line to the brain
+3. brain will convert this line into the native language
+4. body is holding the brain and eyes..
+5. finally native language converted line will be enriched with some additional features
+6. processing/understanding the result
+
+Python also does the same:
+1. code will be read by interpreter(eyes) line by line 
+2. interpreter will pass the given line to the compilter(brain)
+3. compiler(brain) will convert this line into the bytecode eg. 010011 (native language)
+4. Python Virtual Machine (Body) is holding the compiler(brain) and interpreter(eyes)..
+5. Finally native language converted (bytecode) line additional libraries/parameter etc., (will be enriched with some additional features)
+6. processing/understanding the result (will be done with the help of hardware like ram/cpu/hdd/network)
+
+Indent based - Formatting, Structurizing, Beautifying for easy reading, understanding, reasoning etc.,
+#SQL is an indend based programming language? False (Declarative programming model), though the indend is not correct, it works...
+#Scala/Java/Linux shell scripting is an indend based programming language? False (Block programming model), though the indend is not correct, it works...
+
+
+#Python is an indend based programming language? True, Only if the indend is correct the code will work, otherwise it fails... (most of python learners makes mistakes in indendation)
+
+
+We can use tab Or 4 spaces for indending (approach/standard to use)
+If we use 5 spaces/3 spaces across the block? it works
+If we use space in one line 4 spaces and tab in another line within the same block? it will not work
+
+
+If we use space in one line and tab in another line across the block of code?
+
+
+
+Python is General Purpose/Universal (used across all the domains/platforms/systems like application dev, Analyticals, ML, DL, Gen AI, Visualization, DE, Middleware etc.,),
+Opensource Prog language, Rich collection of libraries, Python is a strong legacy Prog language
+import builtins
+print(dir(builtins))
+help('modules')
+import pandas
+import re,numpy
+pandas.<type tab in ur keyboard)
+
+
+High Level (simple, composable, built in, low LOCs)
+
+
+**Python is an Interpreter based (insert values statement in hive)
+
+Python is a Compiler or Interpreter Language? Interpreter based prog lang
+Terminologies we are going to learn: Bytecode, Compiler, Interpreter, OS & VMs (linux/java/python)
+Layman Example:
+Hi Team
+Good Morning
+Let us learn Python programming starting with fundamentals...
+
+Interpreter vs Compiler?
+irfan compiled the below content
+Hi Team -> interpreted
+Good Morning -> interpreted
+Let us learn Python programming starting with fundamentals... - interpreted
+
+eyes - interpreter (python)/compiler (scala)
+brain - compiler
+foreign language -> eyes (interpret/compiled) -> brain (compile) -> mother tongue (bytecode/binarycode) -> virtual machine -> execution
+
+Irfan did? Compilation
+Aspirants did? Interpretation
+
+#execution example of both
+Interpreter Example:
+vi python_interpreter.py
+name='Inceptez'
+age=11
+print(name)
+#print(something)
+print(age)
+print("hello")
+print("good morning")
+
+#Interpret the line by line of code and execute
+python python_interpreter.py
+
+vi scala_compiler.scala
+object obj1 extends App
+{
+var name="Inceptez"
+var age=11
+println(name)
+printlnxyz(age)
+println("hello")
+println("good morning")
+println("thank u")
+}
+
+#Compile the complete code and execute
+scalac scala_compiler.scala
+scala obj1
+
+
+Indent Based
+
+#Python is an indend based programming, not a block based programming (achieve blocking using indendation itself) -
+#It is must to do indentation (advantage - we need to do only 1 thing here, 1. Only Indendation, no blocking is need)
+
+******Function Based Programming Language (FBP)
+Allow us to use the existing functions directly or composing or we can create our own custom functions...
+
+
+WHAT WE ARE GOING TO LEARN??
+
+Environment to start write programming?
+**1. Basic programming fundamentals -
+A. Intent/Block based coding
+B. Comments
+C. Quotes
+D. Variables & Values
+E. Naming Conventions
+
+F. Types and Casting
+G. Input & Output operations
+H. Datatypes (Simple/premetive or Complex/Collection (data structure))
+
+I. Operators
+J. Conditional Structure
+K. Looping Constructs
+L. Complex Types
+
+#Specific to Python
+2. Exception Handling
+
+3. **FBP - Dataengineers (eg. leverage the spark functions writtern by somebody)
+
+4. OOPS - Framework developers (eg. commiters/contributors of apache spark)
+5. Building Apps/APIs/AI integration using Python Programming 
