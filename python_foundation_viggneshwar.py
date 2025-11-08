@@ -104,18 +104,25 @@ print("C. Playing with Quotes: Python treats single quotes the same as double qu
 ##we can use escape sequence also
 
 #Double quotes is used for holding single quoted chars
-
+product_name="Inceptez's Course"
+print(product_name)
 #Triple double quotes is used for muliline
 #For handling paragraph/multilines text, we can use 3 single or doublequotes
-
+product_desc="""Inceptez is a leading
+data engineering training institute in India
+providing real time trainings"""
+print(product_desc)
 #Any programming language learning has to be started first learning about variables
 print("Let's learn all about VARIABLES")
 '''1. Variable Properties - Dynamic Inference, Dynamic Typed, Strongly Typed'''
 
 #Dynamic inference - based on the assigned value to a variable, it will automatically decides/infer/identify/refers the data type dynamically
-
+product_id=101 #integer type
+print(type(product_id))
 #Dynamically typed: If a variable is created with a specific data type, can be changed later
-
+product_price=999 #float type
+product_price=999.99 #changed to float type
+print(type(product_price))    
 #below is possible, because python is dynamically typed language (Duck type language)
 
 
