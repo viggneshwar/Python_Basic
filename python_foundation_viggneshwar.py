@@ -137,7 +137,7 @@ print(type(product_price))
 
 print("E. Naming Conventions")
 #A variable can have camel case or init upper or with underscores
-
+variableName ='Inceptez'
 
 #A variable name must start with a letter or the underscore character
 
@@ -148,8 +148,9 @@ print("E. Naming Conventions")
 
 
 #Variable names are case-sensitive
-
-
+variableName='Inceptez Name'
+VariableName='Inceptez Course'
+print(variableName, VariableName)
 #Multiple Variables can be assigned in a single line (Multi Assignment)
 
 
@@ -401,16 +402,36 @@ print('K. Collection Types')
 #Examples of Collection Types:
 
 #list
-
-
-#dictionary
-
+#List will be declared using []
+#It is an indexed sequenced collection of hetrogeneous elements
+#It is mutable (updatable and resizable)
+#It is iterable (can be looped)
+#It is sorted (maintains the order of insertion)
+#It allows duplicate elements
 
 #tuple
+#Tuple will be declared using ()
+#It is an indexed sequenced collection of hetrogeneous elements
+#It is immutable (non updatable and non resizable)
+#It is iterable (can be looped)
+#It is sorted (maintains the order of insertion)
+#It allows duplicate elements
 
+#dictionary
+#Dict will be declared using {key:value, key:value}
+#It is a key:value pair collection of hetrogeneous elements
+#It is mutable (updatable and resizable)
+#It is iterable (can be looped)
+#It is unsorted (doesn't maintain the order of insertion)
+#It allows duplicate values but not duplicate keys
 
 #set
-
+#Set will be declared using {}
+#It is a sorted distinct collection of iterable elements
+#It is mutable (updatable and resizable)
+#It is iterable (can be looped)
+#It is sorted (maintains the order of insertion)
+#It doesn't allow duplicate elements
 
 #Notataions:
 
@@ -438,10 +459,11 @@ print('K. Collection Types')
 
 print("list operations")
 #List can be hetrogeneous too (but not suggested, why ? because while operate between the elements of the list, program fails because python is a strongly typed language)
-
-
+lst_Name = ['Anirudh', 'Vigneshwar', 'Karthik', 'Suresh', 'Ramesh', 1, 148]
+print("List Name:", lst_Name)
 #All the python collections are iterable -
-
+for x in lst_Name:
+    print(x)
 
 #select/access
 
