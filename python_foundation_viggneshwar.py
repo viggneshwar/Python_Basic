@@ -471,26 +471,58 @@ for x in lst_Name:
 #insert/update/delete (list is mutable, hence updating and resizing (add/removing) is possible)
 
 #append in the last (proves list is mutable/resizable/can be inserted)
-
+lst_Name.append('Sathish')
+print("list after appending an element")
+print("List Name after append:", lst_Name)
 
 #insert in the index position
-
+lst_Name.insert(2,'Karthik') #insert
+print("List Name after insert:", lst_Name)
 
 #update the list elements (mutable)
+lst_Name[2]='Karthick' #update
+print("List Name after update:", lst_Name)
 
 #delete the elements of the list using value
-
+lst_Name.remove('Karthik')
+print("List Name after remove:", lst_Name)
 
 #delete multiple same elements using the value
+# Original list
+my_list = [1, 2, 3, 2, 4, 2, 5]
 
+# Remove all occurrences of 2
+value_to_remove = 2
+filtered_list = [x for x in my_list if x != value_to_remove]
+
+print(filtered_list)  # Output: [1, 3, 4, 5]
+
+my_list = [1, 2, 3, 2, 4, 2, 5]
+value_to_remove = 2
+
+while value_to_remove in my_list:
+    my_list.remove(value_to_remove)
+
+print(my_list)  # Output: [1, 3, 4, 5]
 
 #pop (delete) the elements of the list using index
-
+lst_Name.pop(3)
 
 print("list after popping out a given index element")
 
 #search for a value with in the given index (range) value and pop(remove) it
+lst_Name = ['Anirudh', 'Vigneshwar', 'Karthik', 'Suresh', 'Ramesh', 1, 148]
+value_to_remove = 'Suresh'
+start_index = 1
+end_index = 5  # exclusive
 
+# Search and remove
+for i in range(start_index, end_index):
+    if lst_Name[i] == value_to_remove:
+        lst_Name.pop(i)
+        break  # remove only first match in range
+
+print(lst_Name)
 
 
 
