@@ -516,7 +516,7 @@ value_to_remove = 'Suresh'
 start_index = 1
 end_index = 5  # exclusive
 
-# Search and remove
+# Search and remove 
 for i in range(start_index, end_index):
     if lst_Name[i] == value_to_remove:
         lst_Name.pop(i)
